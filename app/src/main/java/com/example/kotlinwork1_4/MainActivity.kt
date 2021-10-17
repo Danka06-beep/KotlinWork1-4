@@ -66,12 +66,18 @@ class MainActivity : AppCompatActivity() {
         txt.text = post.txt
         if (post.likeTxt > 0) {
             likeTxt.text = post.likeTxt.toString()
+        }else{
+            likeTxt.text = " "
         }
         if (post.commentTxt > 0) {
             commentTxt.text = post.commentTxt.toString()
+        }else{
+            commentTxt.text = " "
         }
         if (post.shareTxt > 0) {
             shareTxt.text = post.shareTxt.toString()
+        }else{
+            shareTxt.text = " "
         }
 
         datetxt.text = date(post)
