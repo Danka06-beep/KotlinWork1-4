@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var post = Post(1,"Dan",1634045445261,"la la la", like = false, comment = false, share = false,0,0,0 ,"Дементьева 12",coordinates = Pair(55.84058,38.20251))
+    var post = Post(1,"Dan",1634045445262,"la la la", like = false, comment = false, share = false,0,0,0 ,"Дементьева 12",coordinates = Pair(55.84058,38.20251))
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
